@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: 
+Description: > "CICD"
 parameters:
   AMItoUse:
     Description: AMI to use for our base image

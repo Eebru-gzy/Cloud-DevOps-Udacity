@@ -1,7 +1,7 @@
 Description: > 
   CICD with Circle CI
 
-parameters:
+Parameters:
   AMItoUse:
     Description: AMI to use for our base image
     Type: AWS::EC2::Image::Id

@@ -5,7 +5,7 @@ Parameters:
   AMItoUse:
     Description: AMI to use for our base image
     Type: AWS::EC2::Image::Id
-    Default: ami-03ac21435677d3cb3
+    Default: ami-09d9c897fc36713bf
 
 Resources:
   EC2Instance:

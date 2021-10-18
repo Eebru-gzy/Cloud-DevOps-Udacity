@@ -13,7 +13,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: AWS-demo.pem
+      KeyName: AWS-demo
       InstanceType: t4g.micro
       ImageId: !Ref AMItoUse
   InstanceSecurityGroup:
